@@ -7,7 +7,7 @@ import plotly.express as px
 COLUMNS_TO_REMOVE = ['SOURCE', 'FAVORITE', 'INTERESTED', 'LATITUDE', 'LONGITUDE']
 
 st.set_page_config(page_title="Property Filter", layout="wide")
-st.title("🏡 Property Filter App")
+st.title("🏡 Realtor Radar")
 
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 
